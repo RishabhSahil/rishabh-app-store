@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*','https://rishabh-app-store.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,7 +41,6 @@ INSTALLED_APPS = [
 
     'el_pagination',
 
-    'applications.frontend',
     'applications.frontend.apps.AppsConfig',
 ]
 

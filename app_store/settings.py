@@ -23,7 +23,7 @@ SECRET_KEY = os.environ['SECRETKEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rishabh-app-store.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','rishabh-app-store.herokuapp.com']
 
 
 # Application definition

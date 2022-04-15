@@ -25,7 +25,7 @@ SECRET_KEY = os.environ['SECRETKEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','https://rishabh-app-store.herokuapp.com']
+ALLOWED_HOSTS = ['rishabh-app-store.herokuapp.com','localhost]
 
 
 # Application definition
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 
     'el_pagination',
 
-    'applications.frontend.apps.AppsConfig',
+    'applications.frontend',
 ]
 
 MIDDLEWARE = [

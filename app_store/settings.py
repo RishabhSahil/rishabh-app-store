@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'el_pagination',
 
     'applications.frontend',
-    'applications.frontend.apps.UsersConfig',
+    'applications.frontend.apps.AppsConfig',
 ]
 
 MIDDLEWARE = [

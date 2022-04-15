@@ -78,16 +78,16 @@ TEMPLATES = [
 WSGI_APPLICATION = 'app_store.wsgi.application'
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': os.environ['nameust'],
-#         'USER': os.environ['unamedt'],
-#         'PASSWORD': os.environ['upassdt'],
-#         'HOST': os.environ['hostnamet'],
-#         'PORT': '5432',
-#     }    
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': os.environ['nameust'],
+        'USER': os.environ['unamedt'],
+        'PASSWORD': os.environ['upassdt'],
+        'HOST': os.environ['hostnamet'],
+        'PORT': '5432',
+    }    
+}
 
 DATABASES = {
     'default': {

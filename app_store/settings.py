@@ -23,7 +23,7 @@ SECRET_KEY = 'la6((qg7=)3-iopb%&t_$*u#+x(=c0p%i)memvddc*h47y!x^e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://rishabh-app-store.herokuapp.com/']
 
 
 # Application definition
